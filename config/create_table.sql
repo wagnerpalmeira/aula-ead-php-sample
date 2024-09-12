@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS aula_bd;
+
+USE aula_bd;
+
+CREATE TABLE IF NOT EXISTS tarefas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    description TEXT NOT NULL
+);
